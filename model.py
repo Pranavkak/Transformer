@@ -1,6 +1,11 @@
 import torch
 import torch.nn as nn
+<<<<<<< HEAD
 
+=======
+import math
+#testing git
+>>>>>>> origin/main
 class InputEmbeddings(nn.Module):
 
     def __init__(self, d_model: int, vocab_size: int) -> None:
